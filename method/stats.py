@@ -12,11 +12,11 @@ class stats(Method):
     def gdo_in_private(self) -> bool:
         return False
 
-    def gdo_parameters(self) -> [GDT]:
+    def gdo_parameters(self) -> list[GDT]:
         return [
             GDT_Bool('global').initial('0'),
             GDT_User('user'),
         ]
 
-    def gdo_execute(self):
+    def gdo_execute(self) -> GDT:
         pass

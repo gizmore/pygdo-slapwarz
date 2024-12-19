@@ -11,11 +11,11 @@ class slap(Method):
     def gdo_in_private(self) -> bool:
         return False
 
-    def gdo_parameters(self) -> [GDT]:
+    def gdo_parameters(self) -> list[GDT]:
         return [
             GDT_User('target').same_channel(True).online().not_null(),
         ]
 
-    def gdo_execute(self):
+    def gdo_execute(self) -> GDT:
         user = self.param_value('target')
-        
+        return self.empty()
