@@ -16,6 +16,6 @@ class slap(Method):
             GDT_User('target').same_channel(True).online().not_null(),
         ]
 
-    def gdo_execute(self) -> GDT:
+    async def gdo_execute(self) -> GDT:
         user = self.param_value('target')
         return self.empty()

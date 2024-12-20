@@ -18,5 +18,5 @@ class stats(Method):
             GDT_User('user'),
         ]
 
-    def gdo_execute(self) -> GDT:
+    async def gdo_execute(self) -> GDT:
         pass
