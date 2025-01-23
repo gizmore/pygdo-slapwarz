@@ -18,4 +18,5 @@ class slap(Method):
 
     async def gdo_execute(self) -> GDT:
         user = self.param_value('target')
+
         return self.empty()

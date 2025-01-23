@@ -225,4 +225,6 @@ items = [
     ['whip', 40],
     ['printer', 35],
     ['version control system', 15],
+    ['python string representation', 11],
+    ['template engine', 12],
 ]
