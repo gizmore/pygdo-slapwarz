@@ -5,7 +5,8 @@ from gdo.core.GDT_User import GDT_User
 
 class slap(Method):
 
-    def gdo_trigger(self) -> str:
+    @classmethod
+    def gdo_trigger(cls) -> str:
         return 'slap'
 
     def gdo_in_private(self) -> bool:
