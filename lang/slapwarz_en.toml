@@ -3,3 +3,5 @@ module_slapwarz = "Slapwarz"
 # Slap
 mt_slapwarz_slap = "Slap"
 md_slapwarz_slap = "Slap a specified target. It has to be online and in the same channel."
+msg_slapwarz_slap = "%s %s %s %s with %s %s (%d points)"
+msg_slapwarz_remain_slap = "%s %s %s %s with %s %s (remainslap: %d points)"

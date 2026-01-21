@@ -117,7 +117,7 @@ adjectives = [
     ['a bloody', 25],
 ]
 
-items = [
+nouns = [
     ['banana peel', 25],
     ['railgun', 75],
     ['vacuum cleaner', 35],
