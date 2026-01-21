@@ -1,4 +1,4 @@
-import functools
+from functools import lru_cache
 
 import tomlkit
 
@@ -8,7 +8,7 @@ from gdo.slapwarz.GDO_Slaps import GDO_Slaps
 
 class module_slapwarz(GDO_Module):
 
-    @functools.cache
+    @lru_cache
     def load_slaps(self) -> dict:
         with open(self.file_path('slaps.toml'), "r") as fh:
             return tomlkit.load(fh)

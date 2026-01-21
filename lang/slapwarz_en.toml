@@ -1,1 +1,5 @@
 module_slapwarz = "Slapwarz"
+
+# Slap
+mt_slapwarz_slap = "Slap"
+md_slapwarz_slap = "Slap a specified target. It has to be online and in the same channel."
