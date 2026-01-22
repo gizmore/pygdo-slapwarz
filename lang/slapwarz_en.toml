@@ -5,3 +5,13 @@ mt_slapwarz_slap = "Slap"
 md_slapwarz_slap = "Slap a specified target. It has to be online and in the same channel."
 msg_slapwarz_slap = "%s %s %s %s with %s %s (%d points)"
 msg_slapwarz_remain_slap = "%s %s %s %s with %s %s (remainslap: %d points)"
+
+# Stats
+mt_slapwarz_stats = "Slapwarz Statistics"
+md_slapwarz_stats = "Slapwarz Statistics. --page=2 for damage statistics. Types: hits, score, damage, dealt, taken."
+overall = 'All together'
+msg_slap_stats_dealt = "%s dealt %s damage in total of %s slaps."
+msg_slap_stats_taken = "%s took %s damage in total of %s slaps."
+msg_slap_stats_score = "%s gained %s points in total of %s slaps."
+msg_slap_stats_hits = "%s hit %s times with a total of %s points, %s remain-slaps with a total of %s points, together %s actions scoring %s points."
+msg_slap_stats_damage = "%s dealt %s damage: %s. This happened on %s, %s ago."

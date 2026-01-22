@@ -17,7 +17,7 @@ class slap(Method):
 
     def gdo_parameters(self) -> list[GDT]:
         return [
-            GDT_User('target').same_channel().online().not_null(),
+            GDT_User('target').same_channel(self._env_channel).online().not_null(),
         ]
 
     def get_target(self) -> GDO_User:
