@@ -7,6 +7,7 @@ from gdo.base.GDT import GDT
 from gdo.date.GDT_Duration import GDT_Duration
 from gdo.slapwarz.GDO_Slap import GDO_Slap
 from gdo.ui.GDT_Score import GDT_Score
+from gdo.base.GDO import GDO
 
 
 class module_slapwarz(GDO_Module):
@@ -16,7 +17,7 @@ class module_slapwarz(GDO_Module):
         with open(self.file_path('slaps.toml'), "r") as fh:
             return tomlkit.load(fh)
 
-    def gdo_classes(self):
+    def gdo_classes(self) -> list[type[GDO]]:
         return [
             GDO_Slap,
         ]
